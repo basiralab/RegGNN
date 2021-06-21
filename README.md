@@ -78,7 +78,7 @@ All valid values for measures are:
 
 ## Using RegGNN on Prepared Data
 
-```demo.py``` file can also be used to apply cross-validation on prepared data using the preprocess commands above, using the parameters specified in ```config.py``` file. In addition to our proposed RegGNN model, other comparison models used in the paper, CPM and PNA, is also supported.
+```demo.py``` file can also be used to apply cross-validation on prepared data using the preprocess commands above, using the parameters specified in ```config.py``` file. In addition to our proposed RegGNN model, other comparison models used in the paper, CPM and PNA are also supported.
 
 To use RegGNN model and sample selection to make inferences on data:
 
