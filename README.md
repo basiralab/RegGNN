@@ -50,6 +50,10 @@ pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.0+c
 
 Detailed information on torch_geometric installation can be found on [their website](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html).
 
+## Download the ABIDE functional connectome data
+
+You can directly download the functional connectomes at: http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html
+
 ## Preparing Data for RegGNN
 
 ```demo.py``` file can be used to either prepare real data for usage in RegGNN by extracting topological features, or it can be used to create simulated data and topological features using the parameters specified in ```config.py``` file.
