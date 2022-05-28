@@ -1,5 +1,5 @@
 # RegGNN
-RegGNN, a graph neural network architecture for many-to-one regression tasks with application to functional brain connectomes for IQ score prediction, developed in Python by Mehmet Arif Demirtaş (demirtasm18@itu.edu.tr).
+RegGNN, a graph neural network architecture for many-to-one regression tasks with application to functional brain connectomes for IQ score prediction, developed in Python by Mehmet Arif Demirtaş (demirtasm18@itu.edu.tr). [*This work has been published in Brain Imaging and Behavior.*](https://link.springer.com/article/10.1007/s11682-021-00585-7)
 
 This repository contains the implementation for the proposed RegGNN model and learning-based sample selection, and the codes for the comparison models from the following paper:
 ![fig1](Fig1.png)
@@ -141,13 +141,19 @@ Randomization options:
 # Please cite the following paper when using RegGNN:
 
 ```latex
-@misc{hanik2021predicting,
-      title={Predicting cognitive scores with graph neural networks through sample selection learning}, 
-      author={Martin Hanik and Mehmet Arif Demirtaş and Mohammed Amine Gharsallaoui and Islem Rekik},
-      year={2021},
-      eprint={2106.09408},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{hanik2022predicting, 
+         title={Predicting cognitive scores with graph neural networks through sample selection learning},
+         volume={16},
+         ISSN={1931-7557, 1931-7565},
+         url={https://link.springer.com/10.1007/s11682-021-00585-7},
+         DOI={10.1007/s11682-021-00585-7},
+         number={3},
+         journal={Brain Imaging and Behavior},
+         author={Hanik, Martin and Demirtaş, Mehmet Arif and Gharsallaoui, Mohammed Amine and Rekik, Islem},
+         year={2022},
+         month={Jun},
+         pages={1123–1138},
+         language={en}
 }
 ```
 
