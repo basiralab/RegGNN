@@ -61,13 +61,13 @@ You can directly download the functional connectomes at: http://fcon_1000.projec
 To simulate functional brain connectome data and create topological features using eigenvector centrality measure, use the following command:
 
 ```bash
-python demo.py --mode data --data-source simulated --selector eigen
+python demo.py --mode data --data-source simulated --measure eigen
 ```
 
 To extract topological features using node degree centrality measure from existing data, use the following command:
 
 ```bash
-python demo.py --mode data --data-source saved --selector node
+python demo.py --mode data --data-source saved --measure node
 ```
 
 All valid values for measures are:
