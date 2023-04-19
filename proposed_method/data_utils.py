@@ -70,8 +70,8 @@ def create_features(data, score, method='eigen'):
                     dist_b = np.array(list(dict(nx.eigenvector_centrality(dist, weight="weight")).values()))
                     dist_c = np.array(list(dict(nx.closeness_centrality(dist, distance="weight")).values()))
                     dist = (dist_a, dist_b, dist_c)
-                data_dict[(i, j)] = data_dict[(j, i)] = dist
-                score_dict[(i, j)] = score_dict[(j, i)] = np.abs(score[i] - score[j])
+            data_dict[(i, j)] = data_dict[(j, i)] = dist
+            score_dict[(i, j)] = score_dict[(j, i)] = np.abs(score[i] - score[j])
     if method == 'concat_orig':
         dicts = data_dict
         data_dict = {}
